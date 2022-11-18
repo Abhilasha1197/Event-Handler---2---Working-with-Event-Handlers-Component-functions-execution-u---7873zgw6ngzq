@@ -11,7 +11,7 @@ const App = () => {
   // do not remove the two buttons or change their id
   return (
     <div id="main">
-      <button id="button-a" onClick={() =>{handleClick('a')}}>Button A</button>
+      <button id="button-a" onClick={()=>{handleClick('a')}}>Button A</button>
       <button id="button-b"onClick={()=>{handleClick('b')}}>Button B</button>
     </div>
   )
